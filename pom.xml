@@ -17,6 +17,17 @@
 						<target>1.8</target>
 					</configuration>
 				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.19.1</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>smoke.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
@@ -30,7 +41,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.13.1</version>
+			<version>6.14.3</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

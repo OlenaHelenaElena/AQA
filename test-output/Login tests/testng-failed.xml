@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Login tests]" parallel="tests">
+  <test thread-count="2" name="Failed login(failed)" parallel="tests">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="testLoginWithLockedUser"/>
+          <include name="testLoginWithEmptyUserName"/>
+          <include name="testLogout"/>
+          <include name="testLoginExistedUser"/>
+          <include name="testLoginWithEmptyPassword"/>
+          <include name="testLoginWithIncorectUser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Failed login(failed) -->
+  <test thread-count="2" name="Success login(failed)" parallel="tests">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="testLoginWithLockedUser"/>
+          <include name="testLoginWithEmptyUserName"/>
+          <include name="testLogout"/>
+          <include name="testLoginExistedUser"/>
+          <include name="testLoginWithEmptyPassword"/>
+          <include name="testLoginWithIncorectUser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Success login(failed) -->
+</suite> <!-- Failed suite [Login tests] -->

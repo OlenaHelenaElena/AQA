@@ -36,7 +36,7 @@ public class LoginTest extends GenericTest {
 
 		soft.assertTrue(driver.getCurrentUrl().equals("https://www.saucedemo.com/inventory.html"),
 				"Current URL should be https://www.saucedemo.com/inventory.html, but found https://www.saucedemo.com/inventory.htmlll ");
-		logout();
+		logPage.logout();
 	}
 
 	@Test
@@ -80,8 +80,10 @@ public class LoginTest extends GenericTest {
 		LoginPage logPage = openLoginPage();
 		ProductsPage prodPage = logPage.loginAs("standard_user", "secret_sauce");
 		Assert.assertTrue(prodPage.isUserLoggedIn());
-		logout();
+		logPage.logout();
 		Assert.assertFalse(prodPage.isUserLoggedIn());
 	}
 
 }
+
+

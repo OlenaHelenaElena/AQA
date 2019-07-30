@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login tests" duration-ms="67059" started-at="2019-07-26T18:08:33Z" finished-at="2019-07-26T18:09:40Z">
+    <groups>
+    </groups>
+    <test name="Success login" duration-ms="67037" started-at="2019-07-26T18:08:33Z" finished-at="2019-07-26T18:09:40Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@17c68925]" name="getDriver" is-config="true" duration-ms="8167" started-at="2019-07-26T18:08:33Z" finished-at="2019-07-26T18:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginExistedUser()[pri:0, instance:tests.LoginTest@17c68925]" name="testLoginExistedUser" duration-ms="5409" started-at="2019-07-26T18:08:41Z" finished-at="2019-07-26T18:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginExistedUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@17c68925]" name="closeBrowser" is-config="true" duration-ms="1140" started-at="2019-07-26T18:08:47Z" finished-at="2019-07-26T18:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@17c68925]" name="getDriver" is-config="true" duration-ms="6764" started-at="2019-07-26T18:08:48Z" finished-at="2019-07-26T18:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithEmptyPassword()[pri:0, instance:tests.LoginTest@17c68925]" name="testLoginWithEmptyPassword" duration-ms="861" started-at="2019-07-26T18:08:54Z" finished-at="2019-07-26T18:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@17c68925]" name="closeBrowser" is-config="true" duration-ms="1487" started-at="2019-07-26T18:08:55Z" finished-at="2019-07-26T18:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@17c68925]" name="getDriver" is-config="true" duration-ms="5721" started-at="2019-07-26T18:08:57Z" finished-at="2019-07-26T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithEmptyUserName()[pri:0, instance:tests.LoginTest@17c68925]" name="testLoginWithEmptyUserName" duration-ms="905" started-at="2019-07-26T18:09:02Z" finished-at="2019-07-26T18:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyUserName -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@17c68925]" name="closeBrowser" is-config="true" duration-ms="1125" started-at="2019-07-26T18:09:03Z" finished-at="2019-07-26T18:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@17c68925]" name="getDriver" is-config="true" duration-ms="5282" started-at="2019-07-26T18:09:05Z" finished-at="2019-07-26T18:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithIncorectUser()[pri:0, instance:tests.LoginTest@17c68925]" name="testLoginWithIncorectUser" duration-ms="1082" started-at="2019-07-26T18:09:10Z" finished-at="2019-07-26T18:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithIncorectUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@17c68925]" name="closeBrowser" is-config="true" duration-ms="915" started-at="2019-07-26T18:09:11Z" finished-at="2019-07-26T18:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@17c68925]" name="getDriver" is-config="true" duration-ms="4884" started-at="2019-07-26T18:09:12Z" finished-at="2019-07-26T18:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithLockedUser()[pri:0, instance:tests.LoginTest@17c68925]" name="testLoginWithLockedUser" duration-ms="1253" started-at="2019-07-26T18:09:17Z" finished-at="2019-07-26T18:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithLockedUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@17c68925]" name="closeBrowser" is-config="true" duration-ms="1424" started-at="2019-07-26T18:09:18Z" finished-at="2019-07-26T18:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@17c68925]" name="getDriver" is-config="true" duration-ms="5559" started-at="2019-07-26T18:09:19Z" finished-at="2019-07-26T18:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:tests.LoginTest@17c68925]" name="testLogout" duration-ms="14063" started-at="2019-07-26T18:09:25Z" finished-at="2019-07-26T18:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@17c68925]" name="closeBrowser" is-config="true" duration-ms="945" started-at="2019-07-26T18:09:39Z" finished-at="2019-07-26T18:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Success login -->
+    <test name="Success login 2" duration-ms="67059" started-at="2019-07-26T18:08:33Z" finished-at="2019-07-26T18:09:40Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@3cda1055]" name="getDriver" is-config="true" duration-ms="8358" started-at="2019-07-26T18:08:33Z" finished-at="2019-07-26T18:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginExistedUser()[pri:0, instance:tests.LoginTest@3cda1055]" name="testLoginExistedUser" duration-ms="5472" started-at="2019-07-26T18:08:41Z" finished-at="2019-07-26T18:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginExistedUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@3cda1055]" name="closeBrowser" is-config="true" duration-ms="919" started-at="2019-07-26T18:08:47Z" finished-at="2019-07-26T18:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@3cda1055]" name="getDriver" is-config="true" duration-ms="6767" started-at="2019-07-26T18:08:48Z" finished-at="2019-07-26T18:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithEmptyPassword()[pri:0, instance:tests.LoginTest@3cda1055]" name="testLoginWithEmptyPassword" duration-ms="1380" started-at="2019-07-26T18:08:54Z" finished-at="2019-07-26T18:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@3cda1055]" name="closeBrowser" is-config="true" duration-ms="980" started-at="2019-07-26T18:08:56Z" finished-at="2019-07-26T18:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@3cda1055]" name="getDriver" is-config="true" duration-ms="5518" started-at="2019-07-26T18:08:57Z" finished-at="2019-07-26T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithEmptyUserName()[pri:0, instance:tests.LoginTest@3cda1055]" name="testLoginWithEmptyUserName" duration-ms="911" started-at="2019-07-26T18:09:02Z" finished-at="2019-07-26T18:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyUserName -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@3cda1055]" name="closeBrowser" is-config="true" duration-ms="1278" started-at="2019-07-26T18:09:03Z" finished-at="2019-07-26T18:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@3cda1055]" name="getDriver" is-config="true" duration-ms="5436" started-at="2019-07-26T18:09:05Z" finished-at="2019-07-26T18:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithIncorectUser()[pri:0, instance:tests.LoginTest@3cda1055]" name="testLoginWithIncorectUser" duration-ms="947" started-at="2019-07-26T18:09:10Z" finished-at="2019-07-26T18:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithIncorectUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@3cda1055]" name="closeBrowser" is-config="true" duration-ms="914" started-at="2019-07-26T18:09:11Z" finished-at="2019-07-26T18:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@3cda1055]" name="getDriver" is-config="true" duration-ms="5466" started-at="2019-07-26T18:09:12Z" finished-at="2019-07-26T18:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLoginWithLockedUser()[pri:0, instance:tests.LoginTest@3cda1055]" name="testLoginWithLockedUser" duration-ms="1170" started-at="2019-07-26T18:09:17Z" finished-at="2019-07-26T18:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithLockedUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@3cda1055]" name="closeBrowser" is-config="true" duration-ms="908" started-at="2019-07-26T18:09:18Z" finished-at="2019-07-26T18:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:tests.LoginTest@3cda1055]" name="getDriver" is-config="true" duration-ms="5543" started-at="2019-07-26T18:09:19Z" finished-at="2019-07-26T18:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:tests.LoginTest@3cda1055]" name="testLogout" duration-ms="14115" started-at="2019-07-26T18:09:25Z" finished-at="2019-07-26T18:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@3cda1055]" name="closeBrowser" is-config="true" duration-ms="933" started-at="2019-07-26T18:09:39Z" finished-at="2019-07-26T18:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Success login 2 -->
+  </suite> <!-- Login tests -->
+</testng-results>

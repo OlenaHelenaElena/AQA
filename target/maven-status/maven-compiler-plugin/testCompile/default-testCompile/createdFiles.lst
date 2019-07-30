@@ -1,0 +1,6 @@
+Pages\ProductsPage.class
+Pages\LoginPage.class
+tests\test2.class
+tests\LoginTest.class
+tests\ProductTest.class
+tests\GenericTest.class
